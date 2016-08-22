@@ -3,4 +3,4 @@
 set -e
 
 echo "---> Starting Spring Boot application"
-java -jar `find target -name *.jar`
+java -jar `find $APP_TARGET -name *.jar`
